@@ -7,6 +7,7 @@
 /* --------- */
 
 /* global or common style is here */
+
 body {
   max-width: 80%;
   height: 100%;
@@ -185,6 +186,8 @@ p {
 
 }
 
+/* ------run extra is end here */
+
 /* ----------BMI part-------- */
 .bmi_part {
   width: 100%;
@@ -306,7 +309,4 @@ select {
   }
 }
 
-
-
 /* -------------------------------- */
-/* ------run extra is end here */
