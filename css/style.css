@@ -4,6 +4,7 @@
 /* global or common style is here */
 body {
   max-width: 80%;
+  height: 100%;
   font-family: "Inter", sans-serif;
   font-style: normal;
   margin: 0 auto;
@@ -11,20 +12,23 @@ body {
   color: #FFFFFF;
   background-color: black
 }
-p{
+
+p {
   opacity: 70%;
 }
-.common_btn{
-  width: 20%;
-  height: 20%;
+
+.common_btn {
+  width: 35%;
+  height: 15%;
   background-color: #E6533C;
   border-radius: 30px;
   border: none;
-  margin-top: 10px;
+  margin-top: 20px;
   color: #FFFFFF;
   font-size: 1.2em;
-  
+
 }
+
 /* ------------ */
 /* miama font */
 @import url('https://fonts.cdnfonts.com/css/miama');
@@ -84,44 +88,47 @@ p{
 /* ----------habit section done and end here--------- */
 
 /* ----------run extra mile---------- */
-.run_extra{
-  width: 70%;
-  height: auto;
+.run_extra {
+  width: 60%;
   display: flex;
   justify-content: center;
   margin: 50px auto 20px;
   background-color: #222222;
-  padding: 10px;
   gap: 10px;
   border-radius: 10px;
-  
+
 }
-.run_heading{
+
+.run_heading {
   width: 50%;
-  height:auto;
   text-align: left;
-  /* border: 1px solid red; */
+  margin-right: 3em;
+  padding-bottom: 3em;
+  margin-top: 2em;
 }
-.run_heading h1{
+
+.run_heading h1 {
   width: 40%;
   font-weight: 800;
   font-size: 2em;
+  margin-top: 0;
 }
-.run_heading p{
+
+.run_heading p {
   width: 70%;
   text-align: left;
-
 }
-.run_img{
+
+.run_img {
   width: 30%;
-  /* height: 100%; */
+  height: 19em;
   background-image: url('../images/run.jpg');
   background-size: cover;
+  text-align: center;
+  background-position: center;
   background-repeat: no-repeat;
-  /* border: 1px solid red; */
-  border-radius: 15px;
-
-  
+  border-radius: 20px;
+  margin: auto 0;
 }
 
 
