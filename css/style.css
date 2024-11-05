@@ -1,5 +1,10 @@
 /* inter font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* miama font */
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+/* font-family: 'Miama', sans-serif; */
+/* --------- */
 
 /* global or common style is here */
 body {
@@ -29,13 +34,7 @@ p {
 
 }
 
-/* ------------ */
-/* miama font */
-@import url('https://fonts.cdnfonts.com/css/miama');
-
-/* font-family: 'Miama', sans-serif; */
-/* --------- */
-
+/* ------------ ----------------*/
 
 /* --------habit section style -------- */
 .habit {
@@ -43,6 +42,7 @@ p {
   flex-direction: column;
   margin: 0 auto;
   width: 80%;
+  border: 1px solid red;
 }
 
 .habit_header {
@@ -89,13 +89,15 @@ p {
 
 /* ----------run extra mile---------- */
 .run_extra {
-  width: 70%;
+  width: 80%;
   display: flex;
   justify-content: center;
   margin: 50px auto 20px;
   background-color: #222222;
   gap: 10px;
   border-radius: 10px;
+  border: 1px solid red;
+
 
 }
 
@@ -121,7 +123,7 @@ p {
 
 .run_img {
   width: 30%;
-  height: 19em;
+  height: 17em;
   background-image: url('../images/run.jpg');
   background-size: cover;
   text-align: center;
@@ -166,12 +168,13 @@ p {
   .run_heading p {
     width: 85%;
   }
-  .run_heading button{
+
+  .run_heading button {
     width: 100%;
     height: 2em;
   }
 
-  
+
   .run_img {
     width: 80%;
     height: 14em;
@@ -186,5 +189,95 @@ p {
 
 }
 
+/* ----------BMI part-------- */
+.bmi_part {
+  width: 100%;
+  margin: 20px auto;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  background-color: #222222;
+  padding: 20px 0;
+}
 
+.bmi_chart {
+  width: 27%;
+  margin: 1.2em auto 0;
+  border: 1px solid red;
+  text-align: left;
+  /* padding: 10px; */
+
+}
+
+.bmi_chart>h1 {
+  margin: 0 0 1.5em;
+}
+
+.bmi_chart table tr td,
+th {
+  padding: 0.7em;
+  margin: 1.5em 0 0;
+
+}
+
+.bmi_chart td {
+  opacity: 70%;
+}
+
+.calc_heading {
+  width: 70%;
+}
+
+#height {
+  grid-area: height;
+}
+
+#weightt {
+  grid-area: weightt;
+}
+
+#age {
+  grid-area: age;
+}
+
+#sex {
+  grid-area: sex;
+}
+
+#activity {
+  grid-area: activity;
+}
+
+.bmi_calculator {
+  width: calc(80% - 1em);
+  display: grid;
+  grid-template-areas: 
+    "height weightt"
+    "age sex"
+    "activity activity"
+  ;
+  border: 1px solid red;
+  grid-gap: 1em;
+  padding: 1em;
+
+}
+
+.bmi_calculator input,
+select {
+  padding: 1em 0.4em;
+  font-size: 1em;
+  border-radius: 5px;
+  color: #858484;
+  background-color: #383838;
+  border: none;
+
+}
+
+
+/* ------bmi section mobile responsive---------- */
+
+
+
+
+/* -------------------------------- */
 /* ------run extra is end here */
