@@ -89,7 +89,7 @@ p {
 
 /* ----------run extra mile---------- */
 .run_extra {
-  width: 60%;
+  width: 70%;
   display: flex;
   justify-content: center;
   margin: 50px auto 20px;
@@ -129,6 +129,61 @@ p {
   background-repeat: no-repeat;
   border-radius: 20px;
   margin: auto 0;
+}
+
+/* --------------mobile responsive part----------- */
+@media screen and (max-width: 576px) {
+  .run_extra {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em 0;
+    /* border: 1px solid red; */
+    text-align: left;
+
+
+  }
+
+  .run_heading {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+
+
+  }
+
+  .run_heading h1 {
+    width: 80%;
+    font-weight: 800;
+    font-size: 2em;
+    margin-top: 0;
+  }
+
+  .run_heading p {
+    width: 85%;
+  }
+  .run_heading button{
+    width: 100%;
+    height: 2em;
+  }
+
+  
+  .run_img {
+    width: 80%;
+    height: 14em;
+    background-image: url('../images/run.jpg');
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin: 0 auto;
+  }
+
 }
 
 
