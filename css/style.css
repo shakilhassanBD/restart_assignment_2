@@ -271,6 +271,10 @@ select {
   border: none;
 
 }
+.bmi_calculate button{
+  width: 50%;
+  height: 2em;
+}
 
 
 /* ------bmi section mobile responsive---------- */
