@@ -141,7 +141,6 @@ p {
     flex-direction: column;
     justify-content: center;
     padding: 2em 0;
-    /* border: 1px solid red; */
     text-align: left;
 
 
@@ -153,9 +152,6 @@ p {
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
-    /* border: 1px solid red; */
-
-
   }
 
   .run_heading h1 {
@@ -275,7 +271,40 @@ select {
 
 
 /* ------bmi section mobile responsive---------- */
+@media screen and (max-width: 576px) {
+  .bmi_part {
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .bmi_chart {
+    width: calc(90% - 1.5em);
+    border: 1px solid red;
+    text-align: left;
+    padding: 1.5em 0;
+  
+  }
+  .bmi_calculator {
+    display: grid;
+    grid-template-areas: 
+      "height"
+      "weightt"
+      "age"
+      "sex"
+      "activity"
+    ;
+    margin: 0 auto;
+  
+  }
+  .calc_heading {
+    width: 80%;
+    margin: 2.5em auto 0;
 
+  }
+}
 
 
 
