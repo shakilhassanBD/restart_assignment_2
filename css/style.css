@@ -307,6 +307,11 @@ select {
     margin: 2.5em auto 0;
 
   }
+  .bmi_calculate button{
+    width: 50%;
+    height: 2em;
+    margin: 0 auto;
+  }
 }
 
 /* -------------------------------- */
