@@ -36,7 +36,36 @@ p {
 }
 
 /* ------------ ----------------*/
+/* -----------header section------------ */
+header {
+  width: 80%;
+  height: 100%;
+  margin: 1em auto;
+  border: 1px solid red;
+  display: grid;
+  grid-template-columns: 50% 50%;
 
+
+}
+
+.miama_font {
+  font-family: 'Miama', sans-serif;
+}
+
+.header_image {
+  width: 100%;
+  height: 100%;
+  border: 1px solid red;
+
+  background-image: url('../images/Images\ 2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  /* margin: auto 0; */
+}
+
+/* ------------------ */
 /* --------habit section style -------- */
 .habit {
   display: flex;
