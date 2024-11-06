@@ -416,7 +416,7 @@ footer {
   margin: 1em auto 3em;
   display: flex;
   background-color: #222222;
-  justify-content: space-evenly;
+  justify-content: center;
 
 
 }
@@ -444,6 +444,7 @@ footer {
   height: 100%;
   border: 1px solid red;
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   margin-top: 2em;
 }
@@ -451,10 +452,14 @@ footer {
   border: 1px solid red;
 
 }
+.contact_info h3{
+  margin-left: 2em;
+}
 .contact_info ul li {
   list-style: none;
   font-size: 1.5em;
   line-height: 1.5em;
+
 
 }
 
