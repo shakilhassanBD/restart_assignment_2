@@ -120,6 +120,8 @@ p {
 .run_heading p {
   width: 70%;
   text-align: left;
+  line-height: 1.5em;
+
 }
 
 .run_img {
@@ -164,6 +166,8 @@ p {
 
   .run_heading p {
     width: 85%;
+    line-height: 1.5em;
+
   }
 
   .run_heading button {
@@ -366,14 +370,16 @@ select {
 
 
 }
-.trainer_name{
+
+.trainer_name {
   position: absolute;
   bottom: 0em;
   padding-left: 1em;
   line-height: 1em;
 
 }
-.trainer img{
+
+.trainer img {
   width: 100%;
   height: 100%;
   border-radius: 1em;
@@ -383,22 +389,78 @@ select {
 /* ---------team section responsive for mobile------- */
 
 @media screen and (max-width:576px) {
-  .team_section{
+  .team_section {
     display: flex;
     flex-direction: column;
   }
+
   .team_heading {
     width: calc(100% - 2em);
     padding: 0 1em;
 
-  
+
   }
-  .trainers{
+
+  .trainers {
     display: flex;
     flex-direction: column;
   }
+}
 
-  
+/* -----------footer------------ */
+
+footer {
+  width: 100%;
+  height: 100%;
+  border: 1px solid red;
+  margin: 1em auto 3em;
+  display: flex;
+  background-color: #222222;
+  justify-content: space-evenly;
+
 
 }
+
+.footer_logo {
+  width: 40%;
+  height: 100%;
+  border: 1px solid red;
+  margin-left: 2em;
+
+}
+
+.footer_logo>h1 {
+  color: #E6533C;
+  font-size: 4em;
+}
+
+.footer_logo>p {
+  width: 60%;
+  line-height: 1.5em;
+}
+
+.contact {
+  width: 40%;
+  height: 100%;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2em;
+}
+.contact_info{
+  border: 1px solid red;
+
+}
+.contact_info ul li {
+  list-style: none;
+  font-size: 1.5em;
+  line-height: 1.5em;
+
+}
+
+.contact_info a {
+  color: #858484;
+  text-decoration: none;
+}
+
 /* -------------------------------- */
