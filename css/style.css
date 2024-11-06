@@ -250,7 +250,7 @@ th {
 .bmi_calculator {
   width: calc(80% - 1em);
   display: grid;
-  grid-template-areas: 
+  grid-template-areas:
     "height weightt"
     "age sex"
     "activity activity"
@@ -271,7 +271,8 @@ select {
   border: none;
 
 }
-.bmi_calculate button{
+
+.bmi_calculate button {
   width: 50%;
   height: 2em;
 }
@@ -284,19 +285,20 @@ select {
     border: 1px solid red;
     display: flex;
     flex-direction: column;
-    
+
   }
-  
+
   .bmi_chart {
     width: calc(90% - 1.5em);
     border: 1px solid red;
     text-align: left;
     padding: 1.5em 0;
-  
+
   }
+
   .bmi_calculator {
     display: grid;
-    grid-template-areas: 
+    grid-template-areas:
       "height"
       "weightt"
       "age"
@@ -304,18 +306,79 @@ select {
       "activity"
     ;
     margin: 0 auto;
-  
+
   }
+
   .calc_heading {
     width: 80%;
     margin: 2.5em auto 0;
 
   }
-  .bmi_calculate button{
+
+  .bmi_calculate button {
     width: 50%;
     height: 2em;
     margin: 0 auto;
   }
 }
 
+/* ---------team section-------- */
+.team_section {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+
+.team_heading {
+  width: 50%;
+  margin: 0 auto 1em;
+  border: 1px solid red;
+  text-align: center;
+
+}
+
+.team_heading h1 {
+  font-size: 2.5em;
+}
+
+.trainer {
+  width: calc(100% - 2em);
+  /* margin: 0 auto 1em; */
+  border: 1px solid red;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #383838;
+  padding: 1em;
+  border-radius: 1em;
+  gap: 1em;
+}
+
+.trainers {
+  width: auto;
+  height: auto;
+  border: 1px solid red;
+  border-radius: 1em;
+  position: relative;
+
+}
+.trainers img{
+  width: 100%;
+  height: 80%;
+  border-radius: 1em;
+  filter: brightness(70%);
+}
+.trainers h3{
+position: absolute;
+top: 12em;
+left: 1em;
+}
+.trainers p{
+  position: absolute;
+  top: 16em;
+  left: 1em;
+  /* opacity: 100%; */
+  }
 /* -------------------------------- */
