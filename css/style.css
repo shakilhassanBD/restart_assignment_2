@@ -24,14 +24,14 @@ p {
 }
 
 .common_btn {
-  width: 35%;
-  height: 15%;
+  width: 9em;
+  height: 3em;
   background-color: #E6533C;
-  border-radius: 30px;
+  border-radius: 2em;
   border: none;
   margin-top: 20px;
   color: #FFFFFF;
-  font-size: 1.2em;
+  font-size: 1.1em;
 
 }
 
@@ -47,22 +47,73 @@ header {
 
 
 }
-
 .miama_font {
   font-family: 'Miama', sans-serif;
+  font-size: 2em;
+  font-weight: 400;
+}
+.header_container{
+  width: 100%;
+  border: 1px solid red;
+
+}
+.header_container h1{
+  width: 60%;
+
+  font-size: 4em;
+  line-height: 1em;
+  margin-left: 1em;
+}
+.header_container p{
+  margin-left: 4em;
+
+}
+.header_container button{
+  margin-left: 3em;
+}
+.download_btn{
+  background-color: transparent;
+  border: 1px solid #858484;
 }
 
 .header_image {
-  width: 100%;
-  height: 100%;
+  width: 50%;
   border: 1px solid red;
-
   background-image: url('../images/Images\ 2.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border-radius: 20px;
-  /* margin: auto 0; */
+  margin: 0 auto;
+  position: relative;
+}
+.video_tutorial button{
+  width: 12em;
+  position: absolute;
+  border: 1px solid red;
+  top: 70%;
+  right: 80%;
+  background-color: rgba(123, 122, 122, 0.5);
+  background-blend-mode: multiply;
+  color: white;
+  border-radius: 1em;
+  line-height: 1em;
+  text-align: right;
+  padding: 1em;
+
+}
+.workout_video button{
+  width: 12em;
+  position: absolute;
+  border: 1px solid red;
+  bottom: 55%;
+  left: 70%;
+  background-color: rgba(123, 122, 122, 0.5);
+  background-blend-mode: multiply;
+  color: white;
+  border-radius: 1em;
+  line-height: 1em;
+  text-align: left;
+  padding: 1em;
 }
 
 /* ------------------ */
