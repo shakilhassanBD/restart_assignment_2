@@ -45,33 +45,38 @@ header {
   display: grid;
   grid-template-columns: 50% 50%;
 
-
 }
+
 .miama_font {
   font-family: 'Miama', sans-serif;
   font-size: 2em;
   font-weight: 400;
 }
-.header_container{
+
+.header_container {
   width: 100%;
   border: 1px solid red;
 
 }
-.header_container h1{
+
+.header_container h1 {
   width: 60%;
 
   font-size: 4em;
   line-height: 1em;
   margin-left: 1em;
 }
-.header_container p{
+
+.header_container p {
   margin-left: 4em;
 
 }
-.header_container button{
+
+.header_container button {
   margin-left: 3em;
 }
-.download_btn{
+
+.download_btn {
   background-color: transparent;
   border: 1px solid #858484;
 }
@@ -86,7 +91,8 @@ header {
   margin: 0 auto;
   position: relative;
 }
-.video_tutorial button{
+
+.video_tutorial button {
   width: 13em;
   height: 8em;
   position: absolute;
@@ -102,7 +108,8 @@ header {
   line-height: 1em;
 
 }
-.fa-circle{
+
+.fa-play {
   color: rgb(245, 65, 65);
   position: absolute;
   right: 60%;
@@ -110,15 +117,7 @@ header {
   font-size: 3em;
 }
 
-/* .video_tutorial i{
-    width: 50%;
-    height: 50%;
-    background-color: #e74c3c;
-    border-radius: 50%;
-    margin-right: 10px;
-}  */
-
-.workout_video button{
+.workout_video button {
   width: 12em;
   position: absolute;
   border: 1px solid red;
@@ -133,7 +132,82 @@ header {
   padding: 1em;
 }
 
+/* ----------header container mobile responsive -------- */
+
+@media screen and (max-width: 576px) {
+
+  /* .header_container{
+    grid-area: header_container;
+  }
+  .header_image{
+    grid-area: header_image;
+  } */
+  header {
+    width: 100%;
+    height: 100%;
+    /* display: grid;
+    grid-template-areas: 
+      "header_container header_container"
+      "header_image header_image"
+    ; */
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .header_container {
+    width: 100%;
+    height: auto;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .header_container h1 {
+    width: 100%;
+    font-size: 2em;
+    line-height: 1em;
+    margin: 1em auto;
+  }
+
+  .header_container p {
+    margin: 0 0;
+
+  }
+
+  .header_btn_container {
+    margin: 1em auto;
+    gap: 1em;
+  }
+
+  .header_container button {
+    margin: 1em 0;
+  }
+
+  .header_image {
+    width: 100%;
+    height: 600px;
+    margin: 2em auto;
+  }
+  .video_tutorial button {
+    
+    top: 50%;
+    right: 50%;
+  }
+  .workout_video {
+    padding: 2em;
+  }
+  .workout_video button{
+    left: 55%;
+    bottom: 80%;
+  }
+}
+
 /* ------------------ */
+
+
+
 /* --------habit section style -------- */
 .habit {
   display: flex;
