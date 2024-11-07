@@ -49,7 +49,14 @@ nav {
   width: 50%;
   border: 1px solid red;
   height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 
+}
+
+.fa-bars {
+  visibility: hidden;
 }
 
 .logo>h1 {
@@ -76,11 +83,14 @@ nav {
   border-radius: 2em;
   padding: 1em 0;
 
-}.nav_link ul li a{
+}
+
+.nav_link ul li a {
   color: white;
   text-decoration: none;
 }
-.home a{
+
+.home a {
   width: 3em;
   padding: 0.5em 1em;
   border-radius: 2em;
@@ -88,7 +98,35 @@ nav {
   background-color: #E6533C;
 }
 
+/* ------nav responsive for mobile------ */
+@media screen and (max-width:576px) {
+  nav {
+    width: 100%;
+    margin-bottom: 0;
 
+  }
+
+  .logo {
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .fa-bars {
+    visibility: visible;
+    margin-right: 1em;
+  }
+
+  .nav_link {
+    width: 0;
+    visibility: hidden;
+  }
+}
+
+
+
+/* -------------header style start from here---------- */
 
 
 .header {
