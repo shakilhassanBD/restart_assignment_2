@@ -87,7 +87,8 @@ header {
   position: relative;
 }
 .video_tutorial button{
-  width: 12em;
+  width: 13em;
+  height: 8em;
   position: absolute;
   border: 1px solid red;
   top: 70%;
@@ -96,11 +97,27 @@ header {
   background-blend-mode: multiply;
   color: white;
   border-radius: 1em;
-  line-height: 1em;
   text-align: right;
   padding: 1em;
+  line-height: 1em;
 
 }
+.fa-circle{
+  color: rgb(245, 65, 65);
+  position: absolute;
+  right: 60%;
+  top: 30%;
+  font-size: 3em;
+}
+
+/* .video_tutorial i{
+    width: 50%;
+    height: 50%;
+    background-color: #e74c3c;
+    border-radius: 50%;
+    margin-right: 10px;
+}  */
+
 .workout_video button{
   width: 12em;
   position: absolute;
