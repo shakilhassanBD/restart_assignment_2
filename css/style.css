@@ -37,7 +37,61 @@ p {
 
 /* ------------ ----------------*/
 /* -----------header section------------ */
-header {
+nav {
+  width: 80%;
+  border: 1px solid red;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 50%;
+  border: 1px solid red;
+  height: auto;
+
+}
+
+.logo>h1 {
+  color: #E6533C;
+  font-size: 2em;
+  margin-left: 0.5em;
+}
+
+.nav_link {
+  width: 100%;
+  border: 1px solid #858484;
+}
+
+.nav_link ul {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  list-style-type: none;
+  gap: 3em;
+  margin-left: 40%;
+  border: 1px solid #858484;
+  border-radius: 2em;
+  padding: 1em 0;
+
+}.nav_link ul li a{
+  color: white;
+  text-decoration: none;
+}
+.home a{
+  width: 3em;
+  padding: 0.5em 1em;
+  border-radius: 2em;
+  color: white;
+  background-color: #E6533C;
+}
+
+
+
+
+.header {
   width: 80%;
   height: 100%;
   margin: 1em auto;
@@ -142,7 +196,7 @@ header {
   .header_image{
     grid-area: header_image;
   } */
-  header {
+  .header {
     width: 100%;
     height: 100%;
     /* display: grid;
@@ -190,15 +244,18 @@ header {
     height: 600px;
     margin: 2em auto;
   }
+
   .video_tutorial button {
-    
+
     top: 50%;
     right: 50%;
   }
+
   .workout_video {
     padding: 2em;
   }
-  .workout_video button{
+
+  .workout_video button {
     left: 55%;
     bottom: 80%;
   }
