@@ -99,7 +99,6 @@ nav {
 @media screen and (max-width:576px) {
   body{
     width: 100%;
-    border: 1px solid red;
     margin: 0 auto;
   }
   nav {
@@ -447,7 +446,67 @@ nav {
 }
 
 /* ------run extra is end here */
+/* ----------unique section----------- */
+.unique_section{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #222222;
+  border-radius: 10px;
 
+}
+.unique_heading{
+  width: 50%;
+  margin: 0 auto 1em;
+  text-align: center;
+}
+.unique_heading h1{
+  font-size: 2em;
+}
+.unique_img_container{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+}
+.meal_img{
+  width: 30%;
+  margin: 10px auto;
+
+}
+.meal_img img{
+  width: 100%;
+  border-radius: 10px;
+
+}
+.meal_img video{
+  border-radius: 10px;
+  width: 100%;
+}
+/* -----unique section responsive for mobile----- */
+
+@media screen and (max-width:576px) {
+
+  .unique_section{
+  width: 100%;
+
+}
+ .unique_heading{
+  width: 90%;
+}
+
+.unique_img_container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.meal_img{
+  width: 90%;
+
+}
+}
+
+/* ------------------ */
 /* ----------BMI part-------- */
 .bmi_part {
   width: 100%;
